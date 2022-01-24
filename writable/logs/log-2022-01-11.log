@@ -1,0 +1,87 @@
+CRITICAL - 2022-01-11 06:14:12 --> except filter must have a matching alias defined.
+#0 C:\xampp\htdocs\ppdb-online-ci4\system\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('except')
+#1 C:\xampp\htdocs\ppdb-online-ci4\system\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 C:\xampp\htdocs\ppdb-online-ci4\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('auth/login')
+#3 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('auth/login', 'before')
+#4 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ppdb-online-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ppdb-online-ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-11 07:08:17 --> Illegal string offset 'pekerjaan'
+#0 C:\xampp\htdocs\ppdb-online-ci4\app\Views\admin\v_pekerjaan.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\ppdb-online-ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ppdb-online-ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ppdb-online-ci4\system\Common.php(1089): CodeIgniter\View\View->render('admin/v_pekerja...', Array, true)
+#4 C:\xampp\htdocs\ppdb-online-ci4\app\Controllers\Pekerjaan.php(22): view('admin/v_pekerja...', Array)
+#5 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(825): App\Controllers\Pekerjaan->index()
+#6 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pekerjaan))
+#7 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ppdb-online-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ppdb-online-ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-11 07:08:54 --> Illegal string offset 'pekerjaan'
+#0 C:\xampp\htdocs\ppdb-online-ci4\app\Views\admin\v_pekerjaan.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\ppdb-online-ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ppdb-online-ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ppdb-online-ci4\system\Common.php(1089): CodeIgniter\View\View->render('admin/v_pekerja...', Array, true)
+#4 C:\xampp\htdocs\ppdb-online-ci4\app\Controllers\Pekerjaan.php(22): view('admin/v_pekerja...', Array)
+#5 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(825): App\Controllers\Pekerjaan->index()
+#6 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pekerjaan))
+#7 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ppdb-online-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ppdb-online-ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-11 08:11:33 --> Undefined variable: pesan
+#0 C:\xampp\htdocs\ppdb-online-ci4\app\Views\admin\v_pekerjaan.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\ppdb-online-ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ppdb-online-ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ppdb-online-ci4\system\Common.php(1089): CodeIgniter\View\View->render('admin/v_pekerja...', Array, true)
+#4 C:\xampp\htdocs\ppdb-online-ci4\app\Controllers\Pekerjaan.php(23): view('admin/v_pekerja...', Array)
+#5 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(825): App\Controllers\Pekerjaan->index()
+#6 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pekerjaan))
+#7 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ppdb-online-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ppdb-online-ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-11 09:14:05 --> Too few arguments to function App\Models\ModelPekerjaan::updateData(), 1 passed in C:\xampp\htdocs\ppdb-online-ci4\app\Controllers\Pekerjaan.php on line 56 and exactly 2 expected
+#0 C:\xampp\htdocs\ppdb-online-ci4\app\Controllers\Pekerjaan.php(56): App\Models\ModelPekerjaan->updateData('13')
+#1 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(825): App\Controllers\Pekerjaan->hapusData('13')
+#2 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pekerjaan))
+#3 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ppdb-online-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ppdb-online-ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-11 20:58:12 --> Invalid file: admin/v_pendidikan.php
+#0 C:\xampp\htdocs\ppdb-online-ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/v_pendidi...')
+#1 C:\xampp\htdocs\ppdb-online-ci4\system\Common.php(1089): CodeIgniter\View\View->render('admin/v_pendidi...', Array, true)
+#2 C:\xampp\htdocs\ppdb-online-ci4\app\Controllers\Pendidikan.php(23): view('admin/v_pendidi...', Array)
+#3 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(825): App\Controllers\Pendidikan->index()
+#4 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendidikan))
+#5 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ppdb-online-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ppdb-online-ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-11 21:33:38 --> Undefined variable: p
+#0 C:\xampp\htdocs\ppdb-online-ci4\app\Views\admin\v_agama.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 129, Array)
+#1 C:\xampp\htdocs\ppdb-online-ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ppdb-online-ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ppdb-online-ci4\system\Common.php(1089): CodeIgniter\View\View->render('admin/v_agama', Array, true)
+#4 C:\xampp\htdocs\ppdb-online-ci4\app\Controllers\Agama.php(23): view('admin/v_agama', Array)
+#5 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(825): App\Controllers\Agama->index()
+#6 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Agama))
+#7 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ppdb-online-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ppdb-online-ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-11 21:59:48 --> Undefined variable: a
+#0 C:\xampp\htdocs\ppdb-online-ci4\app\Views\admin\v_user.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\ppdb-online-ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ppdb-online-ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ppdb-online-ci4\system\Common.php(1089): CodeIgniter\View\View->render('admin/v_user', Array, true)
+#4 C:\xampp\htdocs\ppdb-online-ci4\app\Controllers\User.php(23): view('admin/v_user', Array)
+#5 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(825): App\Controllers\User->index()
+#6 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ppdb-online-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ppdb-online-ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

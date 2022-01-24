@@ -1,0 +1,24 @@
+CRITICAL - 2022-01-21 21:15:17 --> Undefined index: nama_siswa
+#0 C:\xampp\htdocs\ppdb-online-ci4\app\Views\siswa\v_formulir.php(529): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 529, Array)
+#1 C:\xampp\htdocs\ppdb-online-ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ppdb-online-ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ppdb-online-ci4\system\Common.php(1089): CodeIgniter\View\View->render('siswa/v_formuli...', Array, true)
+#4 C:\xampp\htdocs\ppdb-online-ci4\app\Controllers\Siswa.php(43): view('siswa/v_formuli...', Array)
+#5 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(825): App\Controllers\Siswa->index()
+#6 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#7 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ppdb-online-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ppdb-online-ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-21 21:15:52 --> Undefined index: nama_lengkap
+#0 C:\xampp\htdocs\ppdb-online-ci4\app\Views\siswa\v_formulir.php(529): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 529, Array)
+#1 C:\xampp\htdocs\ppdb-online-ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ppdb-online-ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ppdb-online-ci4\system\Common.php(1089): CodeIgniter\View\View->render('siswa/v_formuli...', Array, true)
+#4 C:\xampp\htdocs\ppdb-online-ci4\app\Controllers\Siswa.php(43): view('siswa/v_formuli...', Array)
+#5 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(825): App\Controllers\Siswa->index()
+#6 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#7 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ppdb-online-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ppdb-online-ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

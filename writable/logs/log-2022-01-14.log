@@ -1,0 +1,172 @@
+CRITICAL - 2022-01-14 00:44:59 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\ppdb-online-ci4\app\Models\ModelSiswa.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\ppdb-online-ci4\app\Controllers\Pendaftaran.php(100): App\Models\ModelSiswa->noPendaftaran()
+#2 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(825): App\Controllers\Pendaftaran->simpanPendaftaran()
+#3 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+#4 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ppdb-online-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ppdb-online-ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-14 00:47:28 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\ppdb-online-ci4\app\Models\ModelSiswa.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\ppdb-online-ci4\app\Controllers\Pendaftaran.php(100): App\Models\ModelSiswa->noPendaftaran()
+#2 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(825): App\Controllers\Pendaftaran->simpanPendaftaran()
+#3 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+#4 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ppdb-online-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ppdb-online-ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-14 00:47:48 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\ppdb-online-ci4\app\Models\ModelSiswa.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\ppdb-online-ci4\app\Controllers\Pendaftaran.php(100): App\Models\ModelSiswa->noPendaftaran()
+#2 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(825): App\Controllers\Pendaftaran->simpanPendaftaran()
+#3 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+#4 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ppdb-online-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ppdb-online-ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-14 00:49:32 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\xampp\htdocs\ppdb-online-ci4\app\Models\ModelSiswa.php on line 50
+#0 C:\xampp\htdocs\ppdb-online-ci4\app\Models\ModelSiswa.php(50): CodeIgniter\Database\BaseBuilder->get('no_pendaftaran')
+#1 C:\xampp\htdocs\ppdb-online-ci4\app\Controllers\Pendaftaran.php(100): App\Models\ModelSiswa->noPendaftaran()
+#2 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(825): App\Controllers\Pendaftaran->simpanPendaftaran()
+#3 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+#4 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ppdb-online-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ppdb-online-ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-14 00:50:14 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\xampp\htdocs\ppdb-online-ci4\app\Models\ModelSiswa.php on line 50
+#0 C:\xampp\htdocs\ppdb-online-ci4\app\Models\ModelSiswa.php(50): CodeIgniter\Database\BaseBuilder->get('no_pendaftaran')
+#1 C:\xampp\htdocs\ppdb-online-ci4\app\Controllers\Pendaftaran.php(100): App\Models\ModelSiswa->noPendaftaran()
+#2 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(825): App\Controllers\Pendaftaran->simpanPendaftaran()
+#3 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+#4 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ppdb-online-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ppdb-online-ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-14 00:53:49 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\xampp\htdocs\ppdb-online-ci4\app\Models\ModelSiswa.php on line 50
+#0 C:\xampp\htdocs\ppdb-online-ci4\app\Models\ModelSiswa.php(50): CodeIgniter\Database\BaseBuilder->get('no_pendaftaran')
+#1 C:\xampp\htdocs\ppdb-online-ci4\app\Controllers\Pendaftaran.php(100): App\Models\ModelSiswa->noPendaftaran()
+#2 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(825): App\Controllers\Pendaftaran->simpanPendaftaran()
+#3 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+#4 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ppdb-online-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ppdb-online-ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-14 00:54:12 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\xampp\htdocs\ppdb-online-ci4\app\Models\ModelSiswa.php on line 50
+#0 C:\xampp\htdocs\ppdb-online-ci4\app\Models\ModelSiswa.php(50): CodeIgniter\Database\BaseBuilder->get('no_pendaftaran')
+#1 C:\xampp\htdocs\ppdb-online-ci4\app\Controllers\Pendaftaran.php(100): App\Models\ModelSiswa->noPendaftaran()
+#2 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(825): App\Controllers\Pendaftaran->simpanPendaftaran()
+#3 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+#4 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ppdb-online-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ppdb-online-ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-14 00:54:36 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\xampp\htdocs\ppdb-online-ci4\app\Models\ModelSiswa.php on line 50
+#0 C:\xampp\htdocs\ppdb-online-ci4\app\Models\ModelSiswa.php(50): CodeIgniter\Database\BaseBuilder->get('no_pendaftaran')
+#1 C:\xampp\htdocs\ppdb-online-ci4\app\Controllers\Pendaftaran.php(100): App\Models\ModelSiswa->noPendaftaran()
+#2 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(825): App\Controllers\Pendaftaran->simpanPendaftaran()
+#3 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+#4 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ppdb-online-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ppdb-online-ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-14 00:56:07 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\xampp\htdocs\ppdb-online-ci4\app\Models\ModelSiswa.php on line 50
+#0 C:\xampp\htdocs\ppdb-online-ci4\app\Models\ModelSiswa.php(50): CodeIgniter\Database\BaseBuilder->get('no_pendaftaran')
+#1 C:\xampp\htdocs\ppdb-online-ci4\app\Controllers\Pendaftaran.php(100): App\Models\ModelSiswa->noPendaftaran()
+#2 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(825): App\Controllers\Pendaftaran->simpanPendaftaran()
+#3 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+#4 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ppdb-online-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ppdb-online-ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-14 10:27:07 --> Undefined variable: no
+#0 C:\xampp\htdocs\ppdb-online-ci4\app\Models\ModelSiswa.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 62, Array)
+#1 C:\xampp\htdocs\ppdb-online-ci4\app\Controllers\Pendaftaran.php(100): App\Models\ModelSiswa->noPendaftaran()
+#2 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(825): App\Controllers\Pendaftaran->simpanPendaftaran()
+#3 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+#4 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ppdb-online-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ppdb-online-ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-14 10:27:26 --> Undefined variable: no
+#0 C:\xampp\htdocs\ppdb-online-ci4\app\Models\ModelSiswa.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 62, Array)
+#1 C:\xampp\htdocs\ppdb-online-ci4\app\Controllers\Pendaftaran.php(100): App\Models\ModelSiswa->noPendaftaran()
+#2 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(825): App\Controllers\Pendaftaran->simpanPendaftaran()
+#3 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+#4 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ppdb-online-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ppdb-online-ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-14 10:27:38 --> Undefined variable: no
+#0 C:\xampp\htdocs\ppdb-online-ci4\app\Models\ModelSiswa.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 62, Array)
+#1 C:\xampp\htdocs\ppdb-online-ci4\app\Controllers\Pendaftaran.php(100): App\Models\ModelSiswa->noPendaftaran()
+#2 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(825): App\Controllers\Pendaftaran->simpanPendaftaran()
+#3 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+#4 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ppdb-online-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ppdb-online-ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-14 10:28:01 --> Undefined variable: no
+#0 C:\xampp\htdocs\ppdb-online-ci4\app\Models\ModelSiswa.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 62, Array)
+#1 C:\xampp\htdocs\ppdb-online-ci4\app\Controllers\Pendaftaran.php(100): App\Models\ModelSiswa->noPendaftaran()
+#2 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(825): App\Controllers\Pendaftaran->simpanPendaftaran()
+#3 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+#4 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ppdb-online-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ppdb-online-ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-14 10:38:00 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\ppdb-online-ci4\app\Models\ModelSiswa.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\ppdb-online-ci4\app\Controllers\Pendaftaran.php(100): App\Models\ModelSiswa->noPendaftaran()
+#2 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(825): App\Controllers\Pendaftaran->simpanPendaftaran()
+#3 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+#4 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ppdb-online-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ppdb-online-ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-14 00:38:08 --> Undefined index: banner
+#0 C:\xampp\htdocs\ppdb-online-ci4\app\Views\v_home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\ppdb-online-ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ppdb-online-ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ppdb-online-ci4\system\Common.php(1089): CodeIgniter\View\View->render('v_home', Array, true)
+#4 C:\xampp\htdocs\ppdb-online-ci4\app\Controllers\Home.php(24): view('v_home', Array)
+#5 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ppdb-online-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ppdb-online-ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-14 00:38:55 --> Undefined index: banner
+#0 C:\xampp\htdocs\ppdb-online-ci4\app\Views\v_home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\ppdb-online-ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ppdb-online-ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ppdb-online-ci4\system\Common.php(1089): CodeIgniter\View\View->render('v_home', Array, true)
+#4 C:\xampp\htdocs\ppdb-online-ci4\app\Controllers\Home.php(24): view('v_home', Array)
+#5 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ppdb-online-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ppdb-online-ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-14 00:39:21 --> Undefined index: ket
+#0 C:\xampp\htdocs\ppdb-online-ci4\app\Views\v_home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\ppdb-online-ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ppdb-online-ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ppdb-online-ci4\system\Common.php(1089): CodeIgniter\View\View->render('v_home', Array, true)
+#4 C:\xampp\htdocs\ppdb-online-ci4\app\Controllers\Home.php(24): view('v_home', Array)
+#5 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ppdb-online-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ppdb-online-ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-14 02:39:51 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\ppdb-online-ci4\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\ppdb-online-ci4\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\ppdb-online-ci4\app\Controllers\Banner.php(94): CodeIgniter\Model->__call('getDetailData', Array)
+#3 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(825): App\Controllers\Banner->hapusData('4')
+#4 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Banner))
+#5 C:\xampp\htdocs\ppdb-online-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ppdb-online-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ppdb-online-ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
